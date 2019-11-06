@@ -1,0 +1,16 @@
+{
+"ddiaddrs": "http://192.168.134.125:13636",
+"username": "admin",
+"password": "admin123",
+"nodename": ["node1","node2"],
+"dhcpnode": ["dhcp1","dhcp2"],
+"api_user": "test",
+"api_password": "admin123456",
+"devices": ["master", "slave","abc"],
+"serverip": ["192.168.134.125", "192.168.6.211", "192.168.16.132"],
+"sourceip": ["192.168.134.118", "192.168.134.119", "192.168.134.120"],
+"sshaddr": {"master": "192.168.134.125", "slave": "192.168.6.211"},
+"sshport": {"master": 22, "slave": 22},
+"sshusername": {"master": "root", "slave": "root"},
+"sshpassword": {"master": "123456", "slave": "123456"}
+}
