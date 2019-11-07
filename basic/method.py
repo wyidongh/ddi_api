@@ -14,6 +14,7 @@ class Comply(object):
     def get_info(cls):
         with open(path.join(path.dirname(path.split(path.realpath(__file__))[0]), 'testinfo.json'), 'r') as f:
             info = loads(f.read())
+	print(info)
         cls.websites = info['ddiaddrs']
         cls.username = info['username']
         cls.password = info['password']

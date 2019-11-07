@@ -2,6 +2,7 @@ import os, unittest, HTMLReport
 from sys import path
 import logging
 start_dir = os.path.split(os.path.realpath(__file__))[0]
+print(start_dir)
 path.append(start_dir)
 report_path = os.path.join(start_dir,"reports")
 discover = unittest.defaultTestLoader.discover(os.path.join(start_dir, 'case'), pattern='*.py')
